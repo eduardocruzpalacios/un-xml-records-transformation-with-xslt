@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Declaración de elementos
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+-->
+<!ELEMENT resolucion (encabezado_primera_pagina, pie_primera_pagina, cuadro_superior, titulo, subtitulo, texto, encabezado, pie)>
+<!-- El elemento raiz es "resolucion". No he incluido ningún indicador de frecuencia para expresar que cada documento que vayamos a marcar solo podrá tener un elemento denominado "resolucion". El elemento resolucion debe tener todos esos elementos una sola vez. He diferenciado el contenido del encabezado y el pie de página de las primeras páginas y el resto porque su contenido no es el mismo. El elemento "cuadro_superior" se refiere al contenido que hay entre dos líneas horizontales en la primera página e incluye un logotipo, el órgano que aprueba la resolución, y el lugar y fecha de la aprobación. Con los elementos "titulo" y "subtitulo" me refiero a los dos párrafos destacados en negrita que hay antes del texto de la resolución, propiamente dicho.-->
+<!ELEMENT encabezado_primera_pagina (organizacion, identificador)>
+<!ELEMENT organizacion (#PCDATA)>
+<!ELEMENT identificador (#PCDATA)>
+<!-- Utilizo "#PCDATA" para permitir el uso de caracteres como la "/".-->
+<!ELEMENT pie_primera_pagina (codigo_barras, reciclar?, codigo_qr?)>
+<!-- Partiendo del supuesto de que los elementos que contiene el elemento "pie_primera_pagina" son imágenes insertas en el documento, solo he dejado el código de barras como obligatorio porque es el único que aparece en todos los documentos.-->
+<!ELEMENT codigo_barras EMPTY>
+<!ELEMENT reciclar EMPTY>
+<!ELEMENT codigo_qr EMPTY>
+<!-- Los dejo como elementos vacíos por el supuesto anteriormente mencionado: son imágenes insertas en el documento, y no contienen otroas elementos o texto (entiendo que el texto de las imágenes del código de barras y del icono de "se ruega recliclar" es parte de la imagen y no hay que escribirlo en el documento).-->
+<!ELEMENT cuadro_superior (logotipo_organizacion, organo, lugar_aprobacion, fecha_aprobacion)>
+<!ELEMENT logotipo_organizacion EMPTY>
+<!-- Elemento vacío porque es una imagen insertada, y no contiene texto. Es posible que el texto "Consejo de Seguridad" forme parte de la imagen. Si fuera así, habría que suprimir el siguiente elemento, "organo".-->
+<!ELEMENT organo (#PCDATA)>
+<!ELEMENT lugar_aprobacion (#PCDATA)>
+<!ELEMENT fecha_aprobacion (#PCDATA)>
+<!-- Estos tres elementos únicamente contienen texto. He incluido #PCDATA por si en un futuro se decidieran escribir con caracteres especiales, como las barras o guiones ("/" o "-") en la fecha. Además, Distrito general está abreviado, así que necesita incluir un punto (".").-->
+<!ELEMENT titulo (#PCDATA | negrita)*>
+<!ELEMENT subtitulo (#PCDATA | negrita)*>
+<!-- Elementos con modelo de contenido mixto. Incluyen texto y el resaltado del mismo en negrita.-->
+<!ELEMENT negrita (#PCDATA)>
+<!ELEMENT texto (parrafo+)>
+<!ELEMENT parrafo (#PCDATA | cursiva | documento_relacionado | palabra_clave | organizacion_relacionada | lugar | persona_relacionada | proyecto_relacionado)*>
+<!-- El elemento párrafo es obligatorio, repetible y además tiene un modelo de contenido mixto para poder incluir texto en cursiva y otros elementos hijos, que relacionen el contenido del documento con otros documentos. Todos los elementos hijos son de solo texto.-->
+<!ELEMENT cursiva (#PCDATA)>
+<!ELEMENT documento_relacionado (#PCDATA)>
+<!ELEMENT palabra_clave (#PCDATA)>
+<!ELEMENT organizacion_relacionada (#PCDATA)>
+<!ELEMENT lugar (#PCDATA)>
+<!ELEMENT persona_relacionada (#PCDATA)>
+<!ELEMENT proyecto_relacionado (#PCDATA)>
+<!ELEMENT encabezado (identificador)>
+<!-- El elmento "identificador" ya se definió anteriormente, por lo que ya no es necesario volver a hacerlo.-->
+<!ELEMENT pie (identificador_codigo_barras)>
+<!ELEMENT identificador_codigo_barras (#PCDATA)>
+<!-- He denominado a este elemento "identificador_codigo_barras" porque el número que aparece en el pie de página de los documentos coincide y de hecho, se refiere a él, con el número que hay encima del código de barras.-->
+<!-- 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Declaración de atributos
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+-->
+<!ATTLIST resolucion
+	id CDATA #REQUIRED
+	organizacion NMTOKENS #REQUIRED
+	ente_aprobacion NMTOKENS #REQUIRED
+	lugar_aprobacion NMTOKENS #REQUIRED
+	fecha_aprobacion_iso8601 NMTOKENS #REQUIRED
+	sesion_aprobacion NMTOKENS #REQUIRED
+	pais_referencia_iso3166 NMTOKENS #REQUIRED
+	idioma_iso639 NMTOKENS "es"
+>
+<!-- Todos estos atributos están contemplados para la búsqueda y recuperación de documentos. Por ello, son todos obligatorios, con la excepción del idioma, que tiene un valor por defecto.-->
+<!ATTLIST codigo_barras
+	fuente CDATA #REQUIRED
+	texto CDATA #IMPLIED
+>
+<!ATTLIST reciclar
+	fuente CDATA #REQUIRED
+	texto CDATA #IMPLIED
+>
+<!ATTLIST codigo_qr
+	fuente CDATA #REQUIRED
+	url CDATA #REQUIRED
+>
+<!ATTLIST logotipo_organizacion
+	fuente CDATA #REQUIRED
+>
+<!-- Todos los atrributos "fuente" son obligatorios porque es imprescindible que se incorpore la referencia desde la cual se insertará la imagen correspondiente en el documento.-->
+<!ATTLIST documento_relacionado
+	nombre CDATA #REQUIRED
+	id ID #IMPLIED
+>
+<!-- El atributo "id" del documento relacionado es optativo porque no dispongo de los valores correspondientes a los documentos relacionados que aparecen en los documentos que se deben marcar en la practica 2. Si tuviera dichos valores, lo pondría obligatorio, que es cómo ayudaría a la búsqueda y recuperación de documentos.-->
+<!ATTLIST organizacion_relacionada
+	nombre NMTOKENS #REQUIRED
+>
+<!ATTLIST lugar
+	pais_iso3166 NMTOKENS #REQUIRED
+>
+<!ATTLIST persona_relacionada
+	nombre NMTOKENS #REQUIRED
+>
+<!ATTLIST proyecto_relacionado
+	nombre NMTOKENS #REQUIRED
+>
+<!ATTLIST identificador_codigo_barras
+	numero CDATA #REQUIRED
+>
+<!-- Este número será el número completo que hay encima del código de barras-->

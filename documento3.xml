@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.3 U (http://www.xmlspy.com) by usuario (empresa) -->
+<!DOCTYPE resolucion SYSTEM "dtd.dtd">
+<?xml-stylesheet type="text/xsl" href="transformacion.xslt"?>
+<resolucion id="S/RES/2158 (2014)" organizacion="Naciones Unidas" ente_aprobacion="Consejo de Seguridad" lugar_aprobacion="Distrito General" fecha_aprobacion_iso8601="2014-05-29" sesion_aprobacion="7188" pais_referencia_iso3166="so">
+	<encabezado_primera_pagina>
+		<organizacion>Naciones Unidas</organizacion>
+		<identificador>S/RES/2158 (2914)</identificador>
+	</encabezado_primera_pagina>
+	<pie_primera_pagina>
+		<codigo_barras fuente="codigo_barras.jpg" texto="[Código de barras]"/>
+		<reciclar fuente="reciclar.jpg" texto="Se ruega reciclar"/>
+		<codigo_qr fuente="codigo_qr.jpg" url="http://www.un.org/es/comun/docs/?symbol=S/RES/2158(2014)"/>
+	</pie_primera_pagina>
+	<cuadro_superior>
+		<logotipo_organizacion fuente="nu.jpg"/>
+		<organo>Consejo de Seguridad</organo>
+		<lugar_aprobacion>Distr. general</lugar_aprobacion>
+		<fecha_aprobacion>29 de mayo de 2014</fecha_aprobacion>
+	</cuadro_superior>
+	<titulo>
+		<negrita>Resolución 2158 (2014)</negrita>
+	</titulo>
+	<subtitulo>
+		<negrita>Aprobada por el Consejo de Seguridad en su 7188a sesión, celebrada el 29 de mayo de 2014</negrita>
+	</subtitulo>
+	<texto>
+		<parrafo>
+			<cursiva>El Consejo de Seguridad</cursiva>,</parrafo>
+		<parrafo>
+			<cursiva>Recordando</cursiva> todas sus resoluciones anteriores y las declaraciones de su Presidencia relativas a la situación en <lugar pais_iso3166="so">Somalia</lugar>,</parrafo>
+		<parrafo>
+			<cursiva>Reafirmando</cursiva> su respeto por la soberanía, la independencia política, la integridad territorial y la unidad de Somalia,</parrafo>
+		<parrafo>
+			<cursiva>Encomiando</cursiva> a la <proyecto_relacionado nombre="Misión de Asistencia de las Naciones Unidas en Somalia UNSOM">Misión de Asistencia de las Naciones Unidas en Somalia (UNSOM)</proyecto_relacionado> por sus 12 primeros meses de operación, y <cursiva>observando</cursiva> con aprecio el impacto positivo de la UNSOM en el apoyo prestado al Gobierno Federal de Somalia en el proceso de paz y reconciliación,</parrafo>
+		<parrafo>
+			<cursiva>Subrayando</cursiva> la necesidad de avanzar con urgencia en el desarrollo de un sistema federal, el examen y la aplicación de la Constitución Federal provisional de Somalia y los preparativos para las elecciones de 2016,</parrafo>
+		<parrafo>
+			<cursiva>Expresando</cursiva> preocupación por el aumento de la tensión en Baidoa y la posibilidad de enfrentamiento entre Puntlandia y “Somalilandia”, y <cursiva>alentando</cursiva> a este respecto al Gobierno Federal de Somalia a fortalecer el diálogo con Puntlandia y a reanudar las conversaciones con “Somalilandia” a fin de encontrar soluciones pacíficas acordes con la Constitución Federal provisional,</parrafo>
+		<parrafo>
+			<cursiva>Reconociendo</cursiva> la responsabilidad primordial del Gobierno Federal de Somalia, con el apoyo de la <organizacion_relacionada nombre="Unión Africana en Somalia">Unión Africana en Somalia</organizacion_relacionada>, la UNSOM y los asociados internacionales, en la consolidación de la <palabra_clave>seguridad</palabra_clave> y el establecimiento de la gobernanza básica y del estado de derecho, así como en la facili tación del acceso a la ayuda humanitaria y la prestación de servicios sociales básicos, en las zonas protegidas por la AMISOM y las fuerzas de seguridad somalíes,</parrafo>
+		<parrafo>
+			<cursiva>Recordando</cursiva> la necesidad de que todas las partes respeten las disposiciones pertinentes del derecho internacional humanitario y los <documento_relacionado nombre="Principios Rectores de la Asistencia Humanitaria de las Naciones Unidas">Principios Rectores de la Asistencia Humanitaria de las Naciones Unidas</documento_relacionado>,</parrafo>
+		<parrafo>
+			<cursiva>Acogiendo</cursiva> con beneplácito la relación positiva que existe entre la UNSOM y la Misión de la Unión Africana en Somalia (AMISOM), <cursiva>subrayando</cursiva> la importancia fundamental de que las dos Misiones trabajen en estrecha colaboración, de conformidad con sus respectivos mandatos establecidos por el Consejo de S/RES/2158 (2014) 2/5 14-54248 Seguridad, y <cursiva>señalando</cursiva> la necesidad de mantener una constante colaboración con la <organizacion_relacionada nombre="Oficina de las Naciones Unidas de Apoyo a la AMISON UNISOA">Oficina de las Naciones Unidas de Apoyo a la AMISOM (UNSOA)</organizacion_relacionada>,</parrafo>
+		<parrafo>
+			<cursiva>Subrayando</cursiva> la importancia de que la UNSOM trabaje en estrecha colaboración con el Gobierno Federal de Somalia y, en ese contexto, <cursiva>acogiendo</cursiva> con beneplácito los planes de la UNSOM de trasladarse fuera del Aeropuer to Internacional de Mogadiscio, así como de ampliar su presencia y su labor a las regiones en la medida que las condiciones de seguridad lo permitan,</parrafo>
+		<parrafo>
+			<cursiva>Acogiendo</cursiva> con beneplácito los logros de las operaciones conjuntas llevadas a cabo actualmente por el <organizacion_relacionada nombre="Ejército Nacional de Somalia">Ejército Nacional de Somalia</organizacion_relacionada> y la AMISOM, <cursiva>subrayando</cursiva> sus expectativas de que se mantengan esas operaciones, y <cursiva>encomiando</cursiva> la extraordinaria valentía y los sacrificios realizados por el personal de la AMISOM y del Ejército Nacional de Somalia en pro de la paz y la estabilidad en Somalia,</parrafo>
+		<parrafo>
+			<cursiva>Expresando</cursiva> preocupación por el hecho de que la AMISOM no ha establecido todavía una Célula de Seguimiento, Análisis y Respuesta para las Bajas Civiles, cuya importancia se destacó en las resoluciones del Consejo de Seguridad 2124 (2013) y 2093 (2013),</parrafo>
+		<parrafo>
+			<cursiva>Expresando</cursiva> preocupación por las denuncias de violaciones de los derechos humanos, que incluyen ejecuciones extrajudiciales, <palabra_clave>violencia</palabra_clave> contra las mujeres, los niños y los periodistas, detenciones arbitrarias y un gran número de casos de violencia sexual en Somalia, en particular en los campamentos para desplazados internos, y <cursiva>recalcando</cursiva> la necesidad de poner fin a la impunidad, defender los derechos humanos y hacer que quienes cometen delitos de ese tipo rindan cuentas de sus actos,</parrafo>
+		<parrafo>1. <cursiva>Decide</cursiva> prorrogar por un período de 12 meses el mandato de la UNSOM, que sería el siguiente: </parrafo>
+		<parrafo>a) Ejercer funciones de “buenos oficios” de las Naciones Unidas, en apoyo del proceso de <palabra_clave>paz</palabra_clave> y reconciliación del Gobierno Federal de Somalia;</parrafo>
+		<parrafo>b) Apoyar al Gobierno Federal de Somalia, y a la AMISOM según corresponda, proporcionando asesoramiento normativo estratégico sobre la consolidación de la paz y la construcción del Estado, incluidos los aspectos siguientes:</parrafo>
+		<parrafo>i) La <palabra_clave>gobernanza</palabra_clave>, incluida la gestión de las finanzas públicas;</parrafo>
+		<parrafo>ii) La reforma del sector de la seguridad, el estado de derecho (con inclusión de la policía, la justicia y las instituciones penitenciarias en el marco del <organizacion_relacionada nombre="Centro Mundial de Coordinación de las Naciones Unidas">Centro Mundial de Coordinación de las Naciones Unidas</organizacion_relacionada>), la separación de los combatientes, el desarme, la desmovilización y la reintegración, la seguridad marítima y las actividades relativas a las minas;</parrafo>
+		<parrafo>iii) El desarrollo de un sistema federal, el proceso de examen constitucional y el posterior referendo sobre la constitución, y los preparativos para las elecciones de 2016;</parrafo>
+		<parrafo>c) Prestar asistencia al Gobierno Federal de Somalia en la coordinación del apoyo de los donantes internacionales, colaborando con los asociados bilaterales y multilaterales, en el pleno respeto de la soberanía de Somalia, en particular con respecto a:</parrafo>
+		<parrafo>i) La asistencia para el sector de la seguridad, incluso en lo referente a las condiciones impuestas al Gobierno en el marco de la suspensión parcial del embargo de armas; y</parrafo>
+		<parrafo>ii) La <palabra_clave>seguridad marítima</palabra_clave>;</parrafo>
+		<parrafo>d) Ayudar a desarrollar la capacidad del Gobierno Federal de Somalia para:</parrafo>
+		<parrafo>i) Promover y proteger los <palabra_clave>derechos humanos</palabra_clave> y el empoderamiento de las mujeres, incluso proporcionando asesores en cuestiones de género y asesores en derechos humanos;</parrafo>
+		<parrafo>ii) Promover la <palabra_clave>protección de los niños</palabra_clave> y aplicar los planes de acción pertinentes del Gobierno de Somalia sobre los niños y el conflicto armado, incluso proporcionando asesores de protección de menores;</parrafo>
+		<parrafo>iii) Prevenir la <palabra_clave>violencia sexual</palabra_clave> relacionada con los conflictos y la violencia de género, incluso proporcionando asesores de protección de la mujer;</parrafo>
+		<parrafo>iv) Fortalecer las instituciones de justicia de Somalia y contribuir a asegurar la rendición de cuentas, en particular con respecto a los delitos contra mujeres y niños;</parrafo>
+		<parrafo>e) Vigilar, ayudar a investigar y comunicar al Consejo de Seguridad, y ayudar a prevenir:</parrafo>
+		<parrafo>i) Todo abuso o violación de los derechos humanos o violación del derecho internacional humanitario cometido en Somalia, incluso mediante el despliegue de observadores de derechos humanos;</parrafo>
+		<parrafo>ii) Toda <palabra_clave>violación</palabra_clave> o abuso cometido contra niños en Somalia;</parrafo>
+		<parrafo>iii) Toda violación o abuso cometido contra mujeres, incluidas todas las formas de <palabra_clave>violencia sexual</palabra_clave> y por razón de género en el conflicto armado;</parrafo>
+		<parrafo>2. <cursiva>Acoge con beneplácito</cursiva> el establecimiento de la UNSOM como Misión integrada, bajo la dirección estratégica del Representante Especial del Secretario General, <cursiva>acoge con beneplácito</cursiva> también la reapertura del Complejo Común de las Naciones Unidas en Mogadiscio el 24 de abril de 2014, <cursiva>alienta</cursiva> al equipo de las Naciones Unidas en el país a que prosiga su traslado a Mogadiscio a medida que las condiciones de seguridad lo permitan, y <cursiva>reitera</cursiva> lo establecido en el párrafo 5 de la resolución <documento_relacionado nombre="2012 (2013)">2102 (2013)</documento_relacionado> y el párrafo 17 de la resolución <documento_relacionado nombre="2024 (2013)">2124 (2013)</documento_relacionado> con respecto a las estructuras y las relaciones jerárquicas de la UNSOM;</parrafo>
+		<parrafo>3. <cursiva>Destaca</cursiva> la importancia que concede a que la UNSOM trabaje con el Gobierno Federal de Somalia en la prestación de apoyo a los esfuerzos de estabilización del Gobierno y la coordinación de la asistencia internacional, en particular en las zonas recuperadas de Al-Shabaab;</parrafo>
+		<parrafo>4. <cursiva>Alienta</cursiva> a la UNSOM, la AMISOM y la Autoridad Intergubernamental para el Desarrollo (IGAD) a que sigan instituyendo y realizando actividades conjuntas, de conformidad con sus respectivos mandatos, para apoyar la consolidación de la paz y la construcción del Estado en Somalia y, en este sentido, solicita al <persona_relacionada nombre="Representante Especial del Secretario General">Representante Especial del Secretario General</persona_relacionada> que ajuste estrechamente las actividades del equipo de las Naciones Unidas en Somalia a las prioridades de la UNSOM y coordine las actividades de las Naciones Unidas con el Gobierno Federal S/RES/2158 (2014) 4/5 14-54248 de Somalia, así como con la Unión Africana (incluida la AMISOM), la IGAD, la Unión Europea y otros asociados regionales, bilaterales y multilaterales en Somalia;</parrafo>
+		<parrafo>5. <cursiva>Resalta</cursiva> que la seguridad a largo plazo de Somalia depende del establecimiento del Ejército Nacional de Somalia, <cursiva>subraya</cursiva> la importancia de un apoyo coordinado, transparente y constante de la comunidad internacional para establecer el Ejército Nacional de Somalia, <cursiva>subraya</cursiva> además el papel rector del Gobierno Federal de Somalia en este proceso y <cursiva>alienta</cursiva> a los Estados Miembros a que proporcionen apoyo, de conformidad con lo solicitado por el Consejo de Seguridad en el párrafo 14 de la resolución 2124 (2013), al Ejército Nacional de Somalia, en particular mediante donaciones al Fondo Fiduciario de las Naciones Unidas, para suministrar apoyo logístico no letal a las operaciones conjuntas del Ejército Nacional de Somalia y la AMISOM que formen parte del concepto estratégico general de la AMISOM;</parrafo>
+		<parrafo>6. <cursiva>Reitera</cursiva> la importancia de que la UNSOM cumpla la política del Secretario General de diligencia debida en materia de derechos humanos y la política de tolerancia cero de las Naciones Unidas frente a la explotación y los <palabra_clave>abusos sexuales</palabra_clave>;</parrafo>
+		<parrafo>7. <cursiva>Condena</cursiva> en los términos más enérgicos los atentados terroristas perpetrados recientemente por <persona_relacionada nombre="Al-Shabaab">Al-Shabaab</persona_relacionada> en Somalia y en la región, <cursiva>observa</cursiva> con preocupación el número de atentados perpetrados en Mogadiscio, <cursiva>expresa</cursiva> además preocupación por el hecho de que Al-Shabaab sigue cometiendo actos de terrorismo en Somalia, <cursiva>subraya</cursiva> la importancia de obligar a los responsables a rendir cuentas de sus actos (en pleno cumplimiento del derecho internacional) y <cursiva>reitera</cursiva> que los <palabra_clave>atentados terroristas</palabra_clave> no harán flaquear su determinación de apoyar el proceso de paz y reconciliación en Somalia;</parrafo>
+		<parrafo>8. <cursiva>Acoge con beneplácito</cursiva> el reciente despliegue de una unidad de guardia de las Naciones Unidas para aumentar la seguridad de los recintos de la UNSOM;</parrafo>
+		<parrafo>9. <cursiva>Exhorta</cursiva> al Gobierno Federal de Somalia a elaborar un plan claro para las elecciones de 2016, que incluya el logro de hitos fundamentales, como un referendo sobre la constitución y la formación de una administración interina del Estado, <cursiva>expresa</cursiva> su voluntad de apoyar un plan de este tipo, y, en este contexto, <cursiva>alienta</cursiva> a que se mantenga un estrecho diálogo entre el Gobierno Federal de Somalia y las administraciones regionales apropiadas;</parrafo>
+		<parrafo>10. <cursiva>Expresa</cursiva> profunda preocupación por la situación humanitaria en Somalia, <cursiva>subraya</cursiva> el riesgo de que siga deteriorándose, <cursiva>resalta</cursiva> en particular que 2,9 millones de somalíes necesitan asistencia humanitaria, <cursiva>subraya</cursiva> la urgente necesidad de obtener fondos para el Llamamiento Unificado de las Naciones Unidas para Somalia, cuyo nivel de financiación llega solo al 19%, y <cursiva>reitera</cursiva> su exigencia de que todas las partes garanticen y faciliten el acceso pleno, seguro y sin trabas para la prestación oportuna de asistencia a las personas que la necesitan en toda Somalia;</parrafo>
+		<parrafo>11. <cursiva>Destaca</cursiva> la necesidad de que el Gobierno Federal de Somalia asegure que todos los autores de violaciones graves del derecho internacional humanitario rindan cuentas de sus actos, y <cursiva>pone de relieve</cursiva> la importancia de que la UNSOM apoye al Gobierno de Somalia en la formulación y aplicación de una estrategia nacional para prevenir la violencia sexual y de género y responder a ella;</parrafo>
+		<parrafo>12. <cursiva>Exhorta</cursiva> a la UNSOM a cumplir su mandato en forma acorde, entre otras cosas, con la resolución <documento_relacionado nombre="Resolución 1325 (2000) del Consejo de Seguridad">1325 (2000)</documento_relacionado> del Consejo de Seguridad, <cursiva>deplora</cursiva> la incidencia de la violencia sexual que se registra actualmente en Somalia, <cursiva>acoge con beneplácito</cursiva> la elaboración un <proyecto_relacionado nombre="Plan de Acción Nacional de Somalia para poner fin a la violencia sexual">Plan de Acción Nacional del Gobierno Federal de Somalia para poner fin a la violencia sexual</proyecto_relacionado>, así como el <proyecto_relacionado nombre="Plan de Aplicación del Comunicado Conjunto del Gobierno Federal de Somalia y las Naciones Unidas sobre la Prevención de la Violencia Sexual">Plan de Aplicación del Comunicado Conjunto del Gobierno Federal de Somalia y las Naciones Unidas sobre la Prevención de la Violencia Sexual</proyecto_relacionado>, y <cursiva>alienta</cursiva> a las Naciones Unidas, los Estados Miembros y las organizaciones regionales e internacionales a que apoyen la aplicación;</parrafo>
+		<parrafo>13. <cursiva>Condena enérgicamente</cursiva> las denuncias de violaciones graves cometidas contra niños, <cursiva>acoge con beneplácito</cursiva> la firma por el Gobierno Federal de Somalia de los procedimientos operativos estándar para recibir y entregar niños separados de los grupos armados, e <cursiva>insta</cursiva> al Gobierno Federal de Somalia a que siga aplicando los planes de acción sobre los niños y el conflicto armado, incluso sometiendo a juicio a los autores de esos actos;</parrafo>
+		<parrafo>14. <cursiva>Expresa</cursiva> preocupación por las denuncias de violaciones de los derechos humanos recibidas por la UNSOM y sus asociados, algunas de las cuales fueron presuntamente perpetradas en relación con la campaña militar en curso, y los desalojos forzosos de desplazados internos, destaca la necesidad de que el Gobierno Federal de Somalia asegure que todos los autores de esas violaciones rindan cuentas de sus actos, y <cursiva>exhorta</cursiva> al Gobierno Federal de Somalia a promover el respeto de los derechos humanos, incluso los de las personas que se encuentran en centros de detención, y a protegerlos activamente;</parrafo>
+		<parrafo>15. <cursiva>Solicita</cursiva> al Secretario General que lo informe periódicamente sobre la aplicación del mandato de la UNSOM, incluso mediante informes orales y un mínimo de tres informes escritos, el primero de ellos a más tardar el 25 de septiembre, y cada 120 días a partir de entonces;</parrafo>
+		<parrafo>16. <cursiva>Decide</cursiva> seguir ocupándose activamente de la cuestión.</parrafo>
+	</texto>
+	<encabezado>
+		<identificador>S/RES/2158 (2014)</identificador>
+	</encabezado>
+	<pie>
+		<identificador_codigo_barras numero="14-54248 (S)">1454248</identificador_codigo_barras>
+	</pie>
+</resolucion>
