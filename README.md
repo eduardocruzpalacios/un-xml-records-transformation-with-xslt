@@ -3,6 +3,6 @@ Defines structure (elements and attributes) of the records markedup
 # .xml
 Records marked-up following the .dtd
   - Well-formed
-  - Valid
+  - Validated
 # .xslt
-Transforms each .xml in an HTML webpage with its CSS
+Transforms each .xml in an HTML webpage with CSS
