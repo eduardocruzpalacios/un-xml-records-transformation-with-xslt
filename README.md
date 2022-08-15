@@ -1,5 +1,7 @@
 # United Nations Records Transformation with XSLT
 
+United Nations XML records, marked-up according to a DTD and transformated into HTML and CSS by using XSLT & XPath.
+
 ## How to use
 Open .xml the files with a compatible browser, such as Internet Explorer.
 ## Files
