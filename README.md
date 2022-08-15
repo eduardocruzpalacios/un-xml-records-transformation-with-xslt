@@ -1,4 +1,4 @@
-# United Nations Records Transformation with XSLT
+# United Nations XML Records Transformation with XSLT
 
 United Nations XML records, marked-up according to a DTD and transformated into HTML and CSS by using XSLT and XPath.
 
