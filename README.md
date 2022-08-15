@@ -6,10 +6,10 @@ Open .xml the files with a compatible browser, such as Internet Explorer.
 ### .dtd
 Defines structure (elements and attributes) of the marked-up records.
 ### .xml
-Records marked-up following the .dtd
+Records marked-up following the .dtd.
 
 They are:
-  - Well-formed
-  - Validated
+  - Well-formed.
+  - Validated.
 ### .xslt
 Transforms each .xml in an HTML webpage with CSS.
